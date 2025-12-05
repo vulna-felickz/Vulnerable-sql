@@ -14,9 +14,7 @@ BEGIN
         [Description],
         [Price],
         [StockQuantity],
-        [CategoryId],
-        [CreatedDate],
-        [IsActive]
+        [CategoryId]
     )
     VALUES
     (
@@ -24,9 +22,7 @@ BEGIN
         @Description,
         @Price,
         @StockQuantity,
-        @CategoryId,
-        GETDATE(),
-        1
+        @CategoryId
     );
 
     -- Return the newly created ProductId

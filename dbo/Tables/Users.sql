@@ -12,8 +12,5 @@ CREATE TABLE [dbo].[Users]
 )
 GO
 
-CREATE INDEX [IX_Users_Email] ON [dbo].[Users] ([Email])
-GO
-
 CREATE INDEX [IX_Users_CreatedDate] ON [dbo].[Users] ([CreatedDate])
 GO
